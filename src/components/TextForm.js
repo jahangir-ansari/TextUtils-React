@@ -55,13 +55,13 @@ const TextForm = (props) => {
             }}
           ></textarea>
         </div>
-        <button className="btn btn-danger mx-2" onClick={handleUpClick}>
+        <button className="btn btn-danger mx-2 my-1" onClick={handleUpClick}>
           Convert to Uppercase
         </button>
-        <button className="btn btn-primary mx-2" onClick={handleLoClick}>
+        <button className="btn btn-primary mx-2 my-1" onClick={handleLoClick}>
           Convert to Lowercase
         </button>
-        <button className="btn btn-success mx-2" onClick={handleRepClick}>
+        <button className="btn btn-success mx-2 my-1" onClick={handleRepClick}>
           Click to Replicate
         </button>
       </div>
